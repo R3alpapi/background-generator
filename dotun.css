@@ -1,0 +1,54 @@
+/*
+Selector {
+  property: Value;  
+}*/
+body {
+    background-image: url(flower.jpeg.jpg);
+    background-size: cover;
+    
+}
+h2, p {
+    color: darkolivegreen;
+    text-align: center;
+    border: 5px solid rgba(225, 176, 170, 0.5);
+    cursor: pointer;
+        
+}
+
+p {
+    line-height: 50px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Sriracha', cursive;
+}
+
+img {
+    float: left;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    color: antiquewhite
+}
+li {
+  list-style: none;
+    display: inline-block
+}
+
+.webtext {
+    border: 5px dashed purple;
+}
+
+.active {
+    color: darkred;
+}
+
+#div1 {
+    background: rgba(0 , 0, 255, 0.2)
+}
+
+#div2 {
+    background: rgba(225 , 0, 0, 0.2)
+}
